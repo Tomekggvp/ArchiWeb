@@ -1,0 +1,530 @@
+main {
+    min-width: 1440px;
+    
+
+    .Our-Services{
+        height: 384px;
+        padding: 16px 177px 65px 176px;
+        margin-bottom: 76px;
+        background-color: rgba(37, 77, 77, 0.2);
+
+        .Our-Services__title{
+            margin-left: auto;
+            margin-right: auto;
+            width: 309px;
+            height: 68px;
+
+            h1{
+                color: $text;
+                font-size: 51px;
+                font-family: $font-main;
+                text-align: center;
+                font-weight: 900;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal
+            }
+            
+        }
+       
+
+       
+    }
+
+    .Our-Services__container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+
+        .Our-Services__container__el-1{
+            
+            width: 157px;
+            height: 190px;
+           
+            
+
+            .el-1__img{
+                margin-left: 27.5px;
+                width: 103px;
+                height: 103px;
+
+            }
+
+            .el-1__text{
+
+                width: 158px;
+                height: 87px;
+
+                     h3 {
+                        font-size: 16px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: $text;
+                        margin-top: 9px;
+                     }
+
+                     h2 {
+                        font-size: 27px;
+                        font-weight: 900;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: $text;
+                    }
+            }
+        }
+
+
+        .Our-Services__container__el-2{
+            
+            width: 157px;
+            height: 190px;
+           
+            
+
+            .el-2__img{
+                margin-left: 27.5px;
+                width: 103px;
+                height: 103px;
+
+            }
+
+            .el-2__text{
+
+                width: 158px;
+                height: 87px;
+
+                     h3 {
+                        font-size: 16px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: $text;
+                        margin-top: 9px;
+                     }
+
+                     h2 {
+                        font-size: 27px;
+                        font-weight: 900;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: $text;
+                    }
+            }
+        }
+
+
+
+        .Our-Services__container__el-3{
+            
+            width: 157px;
+            height: 190px;
+           
+            
+
+            .el-3__img{
+                margin-left: 27.5px;
+                width: 103px;
+                height: 103px;
+
+            }
+
+            .el-3__text{
+
+                width: 158px;
+                height: 87px;
+
+                     h3 {
+                        font-size: 16px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: $text;
+                        margin-top: 9px;
+                     }
+
+                     h2 {
+                        font-size: 27px;
+                        font-weight: 900;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: $text;
+                    }
+            }
+        }
+
+    }
+
+
+
+    .About-us {
+        display: flex;
+        margin: 0 10% 0 10%;
+        width: 1276px;
+        height: 571px;
+
+        .About-us__img{
+            width: 735px;
+            height: 571px;
+
+        }
+
+        .About-us__left-container{
+            width: 541px;
+            height: 571px;
+        
+            margin: 85px;
+
+
+            .About-us__left-container-title{
+
+
+                h1{
+                    font-size: 51px;
+                    font-weight: 900;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: $text;
+                }
+            }
+
+            .About-us__left-container-text{
+                margin-top: 27px;
+
+                h2{
+                    font-size: 31px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: $text;
+                }
+            }
+
+            .About-us__left-container-read_more{
+                margin-top: 36px;
+
+                .read_more{
+                    font-size: 24px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: $text;
+
+                    a {
+
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    .Our-Projects-title {
+        width: 1276px;
+        height: 68px;
+        margin: 95px 10% 0 10%;
+
+        h1{
+            font-size: 51px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: $text;
+        }
+    }
+
+
+
+    .Our-Projects__container{
+        height: 594px;
+        width: 1276px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 71px 5% 0 10%;
+        gap: 104px;
+
+        .Our-Projects__container__item1{
+
+
+            .el-1__text{
+                width: 178px;
+                margin-left: 83px;
+
+
+                h3{
+                    
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: $text;
+                }
+            }
+        }
+
+        .Our-Projects__container__item2{
+
+
+            .el-2__text{
+                width: 178px;
+                margin-left: 83px;
+
+
+                h3{
+                    
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: $text;
+                }
+            }
+        }
+
+        .Our-Projects__container__item3{
+
+
+            .el-3__text{
+                width: 178px;
+                margin-left: 83px;
+
+
+                h3{
+                    
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: $text;
+                }
+            }
+        }
+
+        .Our-Projects__container__item4{
+
+
+            .el-4__text{
+                width: 178px;
+                margin-left: 83px;
+
+
+                h3{
+                    
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: $text;
+                }
+            }
+        }
+
+        .Our-Projects__container__item5{
+
+
+            .el-5__text{
+                width: 178px;
+                margin-left: 83px;
+
+
+                h3{
+                    
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: $text;
+                }
+            }
+        }
+
+        .Our-Projects__container__item6{
+
+
+            .el-6__text{
+                width: 178px;
+                margin-left: 83px;
+
+
+                h3{
+                    
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: $text;
+                }
+            }
+        }
+    }
+
+
+
+
+    .Testimonial__title {
+        width: 287px;
+        height: 68px;
+        font-size: 51px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+    }
+
+
+    .Testimonial__container{
+        display: flex;
+        justify-content: space-between;
+        margin: 91px 100px 0 100px;
+
+        .author1{  
+           display: flex;
+           
+           
+        .container{
+            margin-top: auto;
+            margin-bottom: auto;
+            
+            margin-left: 29px;
+                
+            .author1-title{
+                width: 363px;
+                height: 37px;
+                font-size: 28px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: $text;
+                
+
+            }
+
+        
+            .author1-text{
+                width: 307px;
+                height: 69px;
+                font-size: 17px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: $text;
+                margin-top: 16px;
+
+            }
+
+            }
+
+        }
+
+
+        .author2{  
+            display: flex;
+            
+            
+         .container{
+             margin-top: auto;
+             margin-bottom: auto;
+             
+             margin-left: 29px;
+                 
+             .author2-title{
+                 width: 363px;
+                 height: 37px;
+                 font-size: 28px;
+                 font-weight: bold;
+                 font-stretch: normal;
+                 font-style: normal;
+                 line-height: normal;
+                 letter-spacing: normal;
+                 text-align: left;
+                 color: $text;
+                 
+ 
+             }
+ 
+         
+             .author2-text{
+                 width: 307px;
+                 height: 69px;
+                 font-size: 17px;
+                 font-weight: normal;
+                 font-stretch: normal;
+                 font-style: normal;
+                 line-height: normal;
+                 letter-spacing: normal;
+                 text-align: left;
+                 color: $text;
+                 margin-top: 16px;
+ 
+             }
+ 
+             }
+ 
+         }
+
+
+    }
+
+}

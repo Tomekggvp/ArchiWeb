@@ -1,0 +1,135 @@
+footer {
+    min-width: 1440px;
+    min-height: 369px;
+    background-color: $footer-bg;
+    margin-top: 150px;
+
+
+    .footer__left{
+        display: flex;
+        padding-top: 47px;
+        padding-left: 97px;
+        height: 369px;
+        
+
+
+        .item-1{
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+
+
+            .ArchiWeb-tittle{
+                width: 180px;
+                height: 50px;
+                font-size: 42px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #fafafa;
+                font-family: Barlow;
+
+            }
+
+
+            .ArchiWeb-tittle__text{
+                width: 287px;
+                height: 93px;
+                flex-grow: 0;
+                margin: 7px 140px 95.9px 0;
+                font-family: Inter;
+                font-size: 17px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.71;
+                letter-spacing: normal;
+                text-align: left;
+                color: #fafafa;
+                margin-top: 7px;
+
+            }
+
+        }
+
+
+        .item-2{
+            height: 250px;
+
+
+            .Articles-tittle{
+                width: 98px;
+                height: 29px;
+                flex-grow: 0;
+                margin: 10px 421px 18px 140px;
+                font-family: Inter;
+                font-size: 24px;
+                font-weight: 900;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #fafafa;
+
+            }
+
+
+            .ArchiWeb-tittle__text{
+                width: 201px;
+                height: 145px;
+                flex-grow: 0;
+                margin: 7px 318px 43.9px 140px;
+                font-family: Inter;
+                font-size: 17px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.24;
+                letter-spacing: normal;
+                text-align: left;
+                color: #fafafa;
+                
+                
+
+            }
+
+
+        }
+
+        .container__social-img{
+            width: 200px;
+            height: 30px;
+            display: flex;
+            justify-content: space-between;
+            
+            align-items: flex-end;
+            margin-bottom: 54px;
+            
+            
+
+            .img1{
+                width: 24px;
+                height: 24px;
+            }
+
+            .img2{
+                width: 24px;
+                height: 24px;
+            }
+
+            .img3{
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+
+
+    }
+
+
+}
