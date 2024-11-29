@@ -14,9 +14,9 @@ footer {
 
 
         .item-1{
-            width: 200px;
             display: flex;
             flex-direction: column;
+            height: 220px;
 
 
             .ArchiWeb-tittle{
@@ -53,6 +53,33 @@ footer {
 
             }
 
+            .container__social-img{
+                width: 200px;
+                display: flex;
+                justify-content: space-between;
+                height: 25px;
+                margin-bottom: 54px;
+                align-self: flex-start;
+        
+                
+                
+                
+    
+                .img1{
+                    width: 24px;
+                    height: 24px;
+                }
+    
+                .img2{
+                    width: 24px;
+                    height: 24px;
+                }
+    
+                .img3{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
         }
 
 
@@ -100,30 +127,28 @@ footer {
 
         }
 
-        .container__social-img{
-            width: 200px;
-            height: 30px;
-            display: flex;
-            justify-content: space-between;
-            
-            align-items: flex-end;
-            margin-bottom: 54px;
-            
+        .footer-iframe {
             
 
-            .img1{
-                width: 24px;
-                height: 24px;
+            h2 {
+                width: 105px;
+                height: 29px;
+                flex-grow: 0;
+                margin: 10px 190px 18px 318px;
+                font-family: Inter;
+                font-size: 24px;
+                font-weight: 900;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #fafafa;
             }
 
-            .img2{
-                width: 24px;
-                height: 24px;
-            }
+            iframe{
 
-            .img3{
-                width: 24px;
-                height: 24px;
+                margin-left: 319px;
             }
         }
 
