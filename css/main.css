@@ -599,12 +599,20 @@ footer .footer__left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; /* Stack children vertically */
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding-top: 47px;
   padding-left: 97px;
-  height: 369px;
+  height: auto; /* Adjust height dynamically */
+  width: 1000px;
 }
 footer .footer__left .item-1 {
   width: 200px;
+  height: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -612,6 +620,9 @@ footer .footer__left .item-1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 footer .footer__left .item-1 .ArchiWeb-tittle {
   width: 180px;
@@ -646,6 +657,10 @@ footer .footer__left .item-1 .ArchiWeb-tittle__text {
 }
 footer .footer__left .item-2 {
   height: 250px;
+  width: 200px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 footer .footer__left .item-2 .Articles-tittle {
   width: 98px;
@@ -683,17 +698,14 @@ footer .footer__left .item-2 .ArchiWeb-tittle__text {
 }
 footer .footer__left .container__social-img {
   width: 200px;
-  height: 30px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  margin-bottom: 54px;
+  margin-top: 20px;
 }
 footer .footer__left .container__social-img .img1 {
   width: 24px;

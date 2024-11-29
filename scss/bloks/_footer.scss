@@ -7,16 +7,23 @@ footer {
 
     .footer__left{
         display: flex;
+        flex-direction: column; /* Stack children vertically */
+        flex-wrap: wrap;
         padding-top: 47px;
         padding-left: 97px;
-        height: 369px;
+        height: auto; /* Adjust height dynamically */
+        width: 1000px;
+        
         
 
 
         .item-1{
             width: 200px;
+            height: 250px;
             display: flex;
             flex-direction: column;
+            flex: 1;
+            
 
 
             .ArchiWeb-tittle{
@@ -58,6 +65,8 @@ footer {
 
         .item-2{
             height: 250px;
+            width: 200px;
+            flex: 1;
 
 
             .Articles-tittle{
@@ -102,12 +111,11 @@ footer {
 
         .container__social-img{
             width: 200px;
-            height: 30px;
+            height: auto;
             display: flex;
             justify-content: space-between;
-            
-            align-items: flex-end;
-            margin-bottom: 54px;
+            margin-top: 20px; 
+          
             
             
 
