@@ -7,17 +7,39 @@
 
 
 
+.header-top___midle{
+  position: relative;
+  min-width: 1440px;
+  margin: 5% 5% 0 5%;
+  
 
-.conntainer__best-solution {
+
+
+  .conntainer__best-solution {
     width: 691px;
     height: 550px;
     padding: 138px 155px 139px 100px;
     object-fit: contain;
     background-image: linear-gradient(91deg, #f4f6f5 -8%, #fff 133%);
-    margin-top: 3%;
+    top: 94.5px;
+    position: absolute;
+    z-index: 1;
     
     
   }
+
+  .header-top___midle__bg{
+    width: 1150px;
+    height: 739px;
+    position: relative;
+    left: 500px;
+    z-index: 0;
+    
+ }
+}
+
+
+
   
   .best-solution__text1 {
     width: 425px;
@@ -47,10 +69,4 @@
     text-align: left
   }
   
-  .header-top___midle{
-    min-width: 1440px;
-    margin: 5%;
-    display: flex;
-     
-  }
   
