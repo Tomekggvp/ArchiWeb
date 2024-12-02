@@ -12,12 +12,28 @@ ul{
 
 .header-top___menu {
     margin: 2% 15% 0 15%;
-}
-
-.header-top___menu{
     display: flex;
     align-items: center;
 }
+
+.header-top___menu__nav{
+   
+    @media screen and (max-width: 999px){
+        display: none;
+   }
+
+
+}
+
+.header__nav-btn {
+   display: none;
+
+   @media screen and (max-width: 999px){
+        display: block;
+   }
+}
+
+
 
 .logo{
     

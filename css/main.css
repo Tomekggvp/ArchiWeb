@@ -125,15 +125,27 @@ ul {
 
 .header-top___menu {
   margin: 2% 15% 0 15%;
-}
-
-.header-top___menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 999px) {
+  .header-top___menu__nav {
+    display: none;
+  }
+}
+
+.header__nav-btn {
+  display: none;
+}
+@media screen and (max-width: 999px) {
+  .header__nav-btn {
+    display: block;
+  }
 }
 
 .logo {
