@@ -1,5 +1,5 @@
 main {
-    min-width: 1440px;
+    width: 100%;
     
 
     .Our-Services{
@@ -7,6 +7,8 @@ main {
         padding: 16px 177px 65px 176px;
         margin-bottom: 76px;
         background-color: rgba(37, 77, 77, 0.2);
+        min-width: 764px;
+       
 
         .Our-Services__title{
             margin-left: auto;
@@ -179,7 +181,8 @@ main {
     .About-us {
         display: flex;
         margin: 0 0 0 17%;
-        width: 1276px;
+        width: 100%;
+        max-width: 1440px;
         height: 500px;
 
         .About-us__img{
