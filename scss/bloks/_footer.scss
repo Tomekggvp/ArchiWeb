@@ -1,6 +1,7 @@
 footer {
+    width: 100%;
     min-width: 1440px;
-    min-height: 369px;
+    height: 369px;
     background-color: $footer-bg;
     margin-top: 150px;
 
@@ -10,6 +11,7 @@ footer {
         padding-top: 47px;
         padding-left: 97px;
         height: 369px;
+        width: 100%;
         
 
 
@@ -69,17 +71,29 @@ footer {
                 .img1{
                     width: 24px;
                     height: 24px;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
             
                 }
     
                 .img2{
                     width: 24px;
                     height: 24px;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                 }
     
                 .img3{
                     width: 24px;
                     height: 24px;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                 }
             }
         }
