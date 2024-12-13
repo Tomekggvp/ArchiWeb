@@ -50,6 +50,14 @@ main {
                 margin-left: 27.5px;
                 width: 103px;
                 height: 103px;
+                transition: 0.5s;
+
+                &:hover {
+                    transition: 0.3s;
+                    transform: scale(1.1);
+                }
+
+               
 
             }
 
@@ -95,6 +103,12 @@ main {
                 margin-left: 27.5px;
                 width: 103px;
                 height: 103px;
+                transition: 0.5s;
+
+                &:hover {
+                    transition: 0.3s;
+                    transform: scale(1.1);
+                }
 
             }
 
@@ -141,6 +155,12 @@ main {
                 margin-left: 27.5px;
                 width: 103px;
                 height: 103px;
+                transition: 0.5s;
+
+                &:hover {
+                    transition: 0.3s;
+                    transform: scale(1.1);
+                }
 
             }
 

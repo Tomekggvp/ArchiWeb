@@ -20,6 +20,7 @@ ul{
    
     @media screen and (max-width: 999px){
         display: none;
+        justify-self: end;
    }
 
 
@@ -30,7 +31,19 @@ ul{
 
    @media screen and (max-width: 999px){
         display: block;
+        
+        
+        
    }
+}
+
+.header-top___menu__logo{
+    display: flex;
+    align-items: center;
+    
+    .header__nav-btn{
+        margin-left: 100%;
+    }
 }
 
 

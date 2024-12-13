@@ -136,6 +136,7 @@ ul {
 @media screen and (max-width: 999px) {
   .header-top___menu__nav {
     display: none;
+    justify-self: end;
   }
 }
 
@@ -146,6 +147,18 @@ ul {
   .header__nav-btn {
     display: block;
   }
+}
+
+.header-top___menu__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-top___menu__logo .header__nav-btn {
+  margin-left: 100%;
 }
 
 .logo {
@@ -168,6 +181,12 @@ ul {
   max-width: 1440px;
   margin: 5% 5% 0 5%;
 }
+@media screen and (max-width: 999px) {
+  .header-top___midle {
+    margin: 5% 5% 13.1% 5%;
+    height: 375px;
+  }
+}
 .header-top___midle .conntainer__best-solution {
   width: 691px;
   height: 550px;
@@ -179,12 +198,33 @@ ul {
   position: absolute;
   z-index: 1;
 }
+@media screen and (max-width: 999px) {
+  .header-top___midle .conntainer__best-solution {
+    width: 420px;
+    height: 420px;
+    padding: 50px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-image: linear-gradient(91deg, #f4f6f5 -8%, #fff 133%);
+    top: 94.5px;
+    position: absolute;
+    z-index: 1;
+  }
+}
 .header-top___midle .header-top___midle__bg {
   width: 1150px;
   height: 739px;
   position: relative;
   left: 600px;
   z-index: 0;
+}
+@media screen and (max-width: 999px) {
+  .header-top___midle .header-top___midle__bg {
+    width: 79.8%;
+    position: relative;
+    left: 200px;
+    z-index: 0;
+  }
 }
 
 .best-solution__text1 {
@@ -200,6 +240,21 @@ ul {
   letter-spacing: normal;
   text-align: left;
 }
+@media screen and (max-width: 999px) {
+  .best-solution__text1 {
+    width: 212.5px;
+    height: 68px;
+    margin: 0 11px 10px 0;
+    font-family: PlayfairDisplay-Roman;
+    font-size: 35px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+  }
+}
 
 .best-solution__text2 {
   width: 436px;
@@ -213,6 +268,21 @@ ul {
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
+}
+@media screen and (max-width: 999px) {
+  .best-solution__text2 {
+    width: 218px;
+    height: 63.5px;
+    margin: 60px 0 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+  }
 }
 
 main {
@@ -259,6 +329,14 @@ main .Our-Services__container .Our-Services__container__el-1 .el-1__img {
   margin-left: 27.5px;
   width: 103px;
   height: 103px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+main .Our-Services__container .Our-Services__container__el-1 .el-1__img:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 main .Our-Services__container .Our-Services__container__el-1 .el-1__text {
   width: 158px;
@@ -293,6 +371,14 @@ main .Our-Services__container .Our-Services__container__el-2 .el-2__img {
   margin-left: 27.5px;
   width: 103px;
   height: 103px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+main .Our-Services__container .Our-Services__container__el-2 .el-2__img:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 main .Our-Services__container .Our-Services__container__el-2 .el-2__text {
   width: 158px;
@@ -327,6 +413,14 @@ main .Our-Services__container .Our-Services__container__el-3 .el-3__img {
   margin-left: 27.5px;
   width: 103px;
   height: 103px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+main .Our-Services__container .Our-Services__container__el-3 .el-3__img:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 main .Our-Services__container .Our-Services__container__el-3 .el-3__text {
   width: 158px;
@@ -685,13 +779,25 @@ footer .footer__left .item-1 .container__social-img .img1 {
   width: 24px;
   height: 24px;
 }
+footer .footer__left .item-1 .container__social-img .img1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 footer .footer__left .item-1 .container__social-img .img2 {
   width: 24px;
   height: 24px;
 }
+footer .footer__left .item-1 .container__social-img .img2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 footer .footer__left .item-1 .container__social-img .img3 {
   width: 24px;
   height: 24px;
+}
+footer .footer__left .item-1 .container__social-img .img3:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 footer .footer__left .item-2 {
   height: 250px;

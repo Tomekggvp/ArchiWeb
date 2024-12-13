@@ -71,17 +71,29 @@ footer {
                 .img1{
                     width: 24px;
                     height: 24px;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
             
                 }
     
                 .img2{
                     width: 24px;
                     height: 24px;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                 }
     
                 .img3{
                     width: 24px;
                     height: 24px;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                 }
             }
         }
