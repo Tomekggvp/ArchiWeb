@@ -205,6 +205,15 @@ main {
         max-width: 1440px;
         height: 500px;
 
+        @media screen and (max-width: 999px){
+            display: flex;
+            margin-left: 0;
+            width: 100%;
+            max-width: 1440px;
+            height: 500px;
+        }
+          
+
         .About-us__img{
             width: 735px;
             height: 571px;
@@ -213,8 +222,7 @@ main {
 
         .About-us__left-container{
             width: 541px;
-            height: 571px;
-        
+            height: 571px; 
             margin: 85px;
 
 
