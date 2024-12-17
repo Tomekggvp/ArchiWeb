@@ -225,6 +225,13 @@ main {
             height: 571px; 
             margin: 85px;
 
+            @media screen and (max-width: 999px){
+                width: 541px;
+                height: auto; 
+                margin: 0px;
+                padding-left: 20px;
+                padding-top: 50px;
+            }
 
             .About-us__left-container-title{
 
@@ -238,6 +245,17 @@ main {
                     letter-spacing: normal;
                     text-align: left;
                     color: $text;
+
+                    @media screen and (max-width: 999px){
+                        font-size: 36px;
+                        font-weight: 900;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: $text;
+                    }
                 }
             }
 
@@ -253,6 +271,19 @@ main {
                     letter-spacing: normal;
                     text-align: left;
                     color: $text;
+
+
+                    @media screen and (max-width: 999px){
+                        font-size: 26px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: $text;
+    
+                    }
                 }
             }
 
@@ -285,6 +316,13 @@ main {
         height: 68px;
         margin: 95px 0 0 17%;
 
+        @media screen and (max-width: 999px){
+            width: 30%;
+            height: 68px;
+            margin: 20px auto 60px auto;
+            
+        }
+
         h1{
             font-size: 51px;
             font-weight: 900;
@@ -294,6 +332,19 @@ main {
             letter-spacing: normal;
             text-align: left;
             color: $text;
+
+            @media screen and (max-width: 999px){
+                font-size: 49px;
+                font-weight: 900;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: $text;
+    
+                
+            }
         }
     }
 
@@ -306,6 +357,19 @@ main {
         flex-wrap: wrap;
         margin: 71px 0 0 17%;
         gap: 104px;
+
+        @media screen and (max-width: 999px){
+            height: auto;
+            width: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0;
+            gap: 0 50px 0 50px;
+
+            
+        }
 
         .Our-Projects__container__item1{
 
@@ -456,6 +520,21 @@ main {
         margin-left: auto;
         margin-right: auto;
         margin-top: 90px;
+
+        @media screen and (max-width: 999px){
+            width: 287px;
+            height: 68px;
+            font-size: 36px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
     }
 
 
@@ -463,6 +542,15 @@ main {
         display: flex;
         justify-content: space-between;
         margin: 91px 100px 0 100px;
+
+        @media screen and (max-width: 999px){
+            display: flex;
+            justify-content: space-between;
+            margin: 20px auto 0 auto;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 70px;
+        }
 
         .author1{  
            display: flex;

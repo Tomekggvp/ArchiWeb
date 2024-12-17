@@ -1,9 +1,16 @@
 footer {
     width: 100%;
-    min-width: 1440px;
+
     height: 369px;
     background-color: $footer-bg;
     margin-top: 150px;
+
+    @media screen and (max-width: 999px){
+        width: auto;
+        height: auto;
+        background-color: $footer-bg;
+        margin-top: 150px;
+    }
 
 
     .footer__left{
@@ -12,6 +19,14 @@ footer {
         padding-left: 97px;
         height: 369px;
         width: 100%;
+
+        @media screen and (max-width: 999px){
+            display: flex;
+            padding-top: 23.5px;
+            padding-left: 48.5px;
+            height: 369px;
+            width: auto;
+        }
         
 
 
@@ -19,6 +34,13 @@ footer {
             display: flex;
             flex-direction: column;
             height: 220px;
+
+            @media screen and (max-width: 999px){
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                width: 300px;
+            }
 
 
             .ArchiWeb-tittle{
@@ -102,6 +124,10 @@ footer {
         .item-2{
             height: 250px;
 
+            @media screen and (max-width: 999px){
+                height: auto;
+                width: 300px;
+            }
 
             .Articles-tittle{
                 width: 98px;
@@ -122,6 +148,8 @@ footer {
 
 
             .ArchiWeb-tittle__text{
+
+                
                 width: 201px;
                 height: 145px;
                 flex-grow: 0;
@@ -136,7 +164,21 @@ footer {
                 text-align: left;
                 color: #fafafa;
                 
-                
+                @media screen and (max-width: 999px){
+                    width: 150px;
+                    height: 145px;
+                    flex-grow: 0;
+                    margin: 7px 318px 43.9px 140px;
+                    font-family: Inter;
+                    font-size: 17px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.24;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #fafafa;
+                }
 
             }
 
@@ -144,9 +186,12 @@ footer {
         }
 
         .footer-iframe {
-            
+            @media screen and (max-width: 999px){
+                left: 0;
+            }
 
             h2 {
+
                 width: 105px;
                 height: 29px;
                 flex-grow: 0;
@@ -160,11 +205,31 @@ footer {
                 letter-spacing: normal;
                 text-align: left;
                 color: #fafafa;
+
+                @media screen and (max-width: 999px){
+                    width: 105px;
+                    height: 29px;
+                    flex-grow: 0;
+                    margin: 10px 0 20px 32px;
+                    font-family: Inter;
+                    font-size: 24px;
+                    font-weight: 900;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #fafafa;
+                }
             }
 
             iframe{
 
                 margin-left: 319px;
+
+                @media screen and (max-width: 999px){
+                    margin-left: 30px;
+                }
             }
         }
 
