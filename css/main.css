@@ -110,7 +110,7 @@ a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 1245px;
+  width: auto;
 }
 @media screen and (max-width: 999px) {
   .header-top___menu {
@@ -132,6 +132,7 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 150px;
+  margin-right: 10%;
 }
 
 .header-top___menu {
@@ -167,6 +168,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 20%;
 }
 .header-top___menu__logo .header__nav-btn {
   margin-left: 100%;
@@ -463,7 +465,7 @@ main .About-us {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 0 0 17%;
+  margin: 0 auto 0 auto;
   width: 100%;
   max-width: 1440px;
   height: 500px;
@@ -485,14 +487,14 @@ main .About-us .About-us__img {
 }
 main .About-us .About-us__left-container {
   width: 541px;
-  height: 571px;
-  margin: 85px;
+  height: auto;
+  margin: 7% 0 5% 5%;
 }
 @media screen and (max-width: 999px) {
   main .About-us .About-us__left-container {
     width: 541px;
     height: auto;
-    margin: 0px;
+    margin: 0;
     padding-left: 20px;
     padding-top: 50px;
   }
@@ -560,12 +562,13 @@ main .About-us .About-us__left-container .About-us__left-container-read_more .re
 main .Our-Projects-title {
   width: 1276px;
   height: 68px;
-  margin: 95px 0 0 17%;
+  margin: 150px auto 0 auto;
 }
 @media screen and (max-width: 999px) {
   main .Our-Projects-title {
-    width: 30%;
-    height: 68px;
+    width: auto;
+    text-align: center;
+    height: auto;
     margin: 20px auto 60px auto;
   }
 }
@@ -581,6 +584,7 @@ main .Our-Projects-title h1 {
 }
 @media screen and (max-width: 999px) {
   main .Our-Projects-title h1 {
+    width: 40%;
     font-size: 49px;
     font-weight: 900;
     font-stretch: normal;
@@ -589,6 +593,8 @@ main .Our-Projects-title h1 {
     letter-spacing: normal;
     text-align: left;
     color: #2f2e2e;
+    margin-left: 30%;
+    margin-right: 30%;
   }
 }
 main .Our-Projects__container {
@@ -597,9 +603,12 @@ main .Our-Projects__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 71px 0 0 17%;
+  margin: 71px auto 0 auto;
   gap: 104px;
 }
 @media screen and (max-width: 999px) {
@@ -619,7 +628,7 @@ main .Our-Projects__container {
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0;
-    gap: 0 50px 0 50px;
+    gap: 50px;
   }
 }
 main .Our-Projects__container .Our-Projects__container__item1 .el-1__text {
@@ -851,8 +860,12 @@ footer .footer__left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 47px;
-  padding-left: 97px;
+  padding-left: 50px;
+  padding-right: 50px;
   height: 369px;
   width: 100%;
 }
@@ -861,8 +874,9 @@ footer .footer__left {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 23.5px;
-    padding-left: 48.5px;
+    padding-top: 47px;
+    padding-left: 50px;
+    padding-right: 50px;
     height: 369px;
     width: auto;
   }
@@ -875,6 +889,7 @@ footer .footer__left .item-1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: auto;
   height: 220px;
 }
 @media screen and (max-width: 999px) {
@@ -960,6 +975,7 @@ footer .footer__left .item-1 .container__social-img .img3:hover {
 }
 footer .footer__left .item-2 {
   height: 250px;
+  width: auto;
 }
 @media screen and (max-width: 999px) {
   footer .footer__left .item-2 {
@@ -1020,6 +1036,9 @@ footer .footer__left .item-2 .ArchiWeb-tittle__text {
     color: #fafafa;
   }
 }
+footer .footer__left .footer-iframe {
+  width: auto;
+}
 @media screen and (max-width: 999px) {
   footer .footer__left .footer-iframe {
     left: 0;
@@ -1031,7 +1050,7 @@ footer .footer__left .footer-iframe h2 {
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
           flex-grow: 0;
-  margin: 10px 190px 18px 318px;
+  margin: 10px 190px 18px 0px;
   font-family: Inter;
   font-size: 24px;
   font-weight: 900;
@@ -1062,10 +1081,29 @@ footer .footer__left .footer-iframe h2 {
   }
 }
 footer .footer__left .footer-iframe iframe {
-  margin-left: 319px;
+  margin-left: 0;
 }
 @media screen and (max-width: 999px) {
   footer .footer__left .footer-iframe iframe {
     margin-left: 30px;
   }
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #254e44;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-to-top:hover {
+  background: #36584f;
 }

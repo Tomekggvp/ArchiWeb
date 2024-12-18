@@ -1,12 +1,15 @@
 .header-top___menu{
     display: flex;
     justify-content: space-between;
-    width: 1245px;
+    width: auto;
+    
+    
 
     @media screen and (max-width: 999px){
         display: flex;
         justify-content: space-between;
         width: auto;
+        
     }
       
 }
@@ -15,6 +18,8 @@ ul{
     display: flex;
     justify-content: space-between;
     gap: 150px;
+    margin-right: 10%;
+   
 }
 
 .header-top___menu {
@@ -47,6 +52,7 @@ ul{
 .header-top___menu__logo{
     display: flex;
     align-items: center;
+    margin-right: 20%;
     
     .header__nav-btn{
         margin-left: 100%;
