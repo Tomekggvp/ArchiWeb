@@ -196,8 +196,10 @@ ul {
 }
 @media screen and (max-width: 999px) {
   .header-top___midle {
+
     margin: 5% 0 0 0.2%;
     height: 520px;
+
   }
 }
 .header-top___midle .conntainer__best-solution {
