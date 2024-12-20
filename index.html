@@ -16,18 +16,30 @@
   
     <header class=".header-top">
 
-        <div class="header-top___menu">
+        <div class="header-top___menu" id="Home">
 
             <div class="header-top___menu__logo">
                 <div><span class="logo">ArchiWeb</span></div>
-                <div class="header__nav-btn"><a href="">Menu</a></div>
+            
+                <div class="btn-container">
+                    <button class="header__nav-btn" id="toggleButton">Menu</button>
+                </div>
+
+                <nav class="vertical-menu" id="menu">
+                    <a href="#Home" class="active">Home</a>
+                    <a href="#Projects">Projects</a>
+                    <a href="#About">About</a>
+                    <a href="#Contact">Contact</a>
+                  
+                </nav>
+                
             </div>
 
             <div class="header-top___menu__nav">
 
                 <nav class="header-nav">
                  <ul>
-                    <li class="nav-item"><b><a href="#">Home</a></b></li>
+                    <li class="nav-item"><b><a href="#Home">Home</a></b></li>
                     <li class="nav-item"><a href="#Projects">Projects</a></li>
                     <li class="nav-item"><a href="#About">About</a></li>
                     <li class="nav-item"><a href="#Contact">Contact</a></li>
@@ -313,8 +325,9 @@
  
     
     <button class="back-to-top" style="display: none;">↑ Up</button>
-    
+    <script src="js/menu-btn.js"></script>
 </body>
 
 <script src="js/nav-btn.js"></script>
+
 </html>
