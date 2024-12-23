@@ -31,6 +31,7 @@
     top: 94.5px;
     position: absolute;
     z-index: 1;
+    box-shadow: 20px 15px 15px rgba(0, 0, 0, 0.5); 
     
     @media screen and (max-width: 999px){
       
@@ -54,6 +55,7 @@
     position: relative;
     left: 600px;
     z-index: 0;
+    box-shadow: 10px 40px 15px rgba(0, 0, 0, 0.5); 
 
 
     @media screen and (max-width: 999px){

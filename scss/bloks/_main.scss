@@ -217,7 +217,13 @@ main {
         .About-us__img{
             width: 735px;
             height: 571px;
+            box-shadow: 15px 40px 15px rgba(0, 0, 0, 0.5); 
 
+            @media screen and (max-width: 999px){
+                width: 735px;
+                height: 435px;
+                box-shadow: 10px 40px 15px rgba(0, 0, 0, 0.5); 
+            }
         }
 
         .About-us__left-container{
@@ -383,7 +389,7 @@ main {
 
 
         .Our-Projects__container__item1{
-
+            transition: transform 5s ease;
 
             .el-1__text{
                 width: 178px;
@@ -391,7 +397,7 @@ main {
 
 
                 h3{
-                    
+                    margin-top: 23px;
                     font-size: 18px;
                     font-weight: normal;
                     font-stretch: normal;
@@ -401,6 +407,22 @@ main {
                     text-align: center;
                     color: $text;
                 }
+            }
+
+            & img {
+                transition: transform 0.1s ease;
+                box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.5); 
+            }
+
+
+            & img:hover {
+                
+                transform: scale(1.02);
+                
+            }
+
+            & img:active {
+                transform: scale(0.99);
             }
         }
 
@@ -413,7 +435,7 @@ main {
 
 
                 h3{
-                    
+                    margin-top: 23px;
                     font-size: 18px;
                     font-weight: normal;
                     font-stretch: normal;
@@ -423,6 +445,22 @@ main {
                     text-align: center;
                     color: $text;
                 }
+            }
+
+            & img {
+                transition: transform 0.1s ease;
+                box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.5); 
+            }
+
+            & img:hover {
+                
+                transform: scale(1.02);
+                
+                
+            }
+
+            & img:active {
+                transform: scale(0.99);
             }
         }
 
@@ -435,7 +473,7 @@ main {
 
 
                 h3{
-                    
+                    margin-top: 23px;
                     font-size: 18px;
                     font-weight: normal;
                     font-stretch: normal;
@@ -445,6 +483,21 @@ main {
                     text-align: center;
                     color: $text;
                 }
+            }
+
+            & img {
+                transition: transform 0.1s ease;
+                box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.5); 
+            }
+
+            & img:hover {
+                
+                transform: scale(1.02);
+                
+            }
+
+            & img:active {
+                transform: scale(0.99);
             }
         }
 
@@ -457,7 +510,7 @@ main {
 
 
                 h3{
-                    
+                    margin-top: 23px;
                     font-size: 18px;
                     font-weight: normal;
                     font-stretch: normal;
@@ -467,6 +520,21 @@ main {
                     text-align: center;
                     color: $text;
                 }
+            }
+
+            & img {
+                transition: transform 0.1s ease;
+                box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.5); 
+            }
+
+            & img:hover {
+                
+                transform: scale(1.02);
+                
+            }
+
+            & img:active {
+                transform: scale(0.99);
             }
         }
 
@@ -479,7 +547,7 @@ main {
 
 
                 h3{
-                    
+                    margin-top: 23px;
                     font-size: 18px;
                     font-weight: normal;
                     font-stretch: normal;
@@ -489,6 +557,21 @@ main {
                     text-align: center;
                     color: $text;
                 }
+            }
+
+            & img {
+                transition: transform 0.1s ease;
+                box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.5); 
+            }
+
+            & img:hover {
+                
+                transform: scale(1.02);
+                
+            }
+
+            & img:active {
+                transform: scale(0.99);
             }
         }
 
@@ -501,7 +584,7 @@ main {
 
 
                 h3{
-                    
+                    margin-top: 23px;
                     font-size: 18px;
                     font-weight: normal;
                     font-stretch: normal;
@@ -511,6 +594,21 @@ main {
                     text-align: center;
                     color: $text;
                 }
+            }
+
+            & img {
+                transition: transform 0.1s ease;
+                box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.5); 
+            }
+
+            & img:hover {
+                
+                transform: scale(1.02);
+                
+            }
+
+            & img:active {
+                transform: scale(0.99);
             }
         }
     }
